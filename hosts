@@ -1,0 +1,11 @@
+[win]
+10.8.99.226
+40.69.157.221
+
+[win:vars]
+ansible_user=dberger
+ansible_password=Smartvm12345
+ansible_connection=winrm
+ansible_winrm_transport=ssl
+ansible_winrm_server_cert_validation=ignore
+ansible_port=5985
