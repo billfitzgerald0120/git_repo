@@ -1,7 +1,7 @@
 ---
 # This playbook uses a host group and then connects using winrm 
 # - name: Echo Hello, world!
-- hosts: win
+- hosts: all
   # connection: winrm
   tasks:
   - debug: msg="Hello, world! localhost"
