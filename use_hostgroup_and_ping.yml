@@ -7,7 +7,7 @@
   - debug: msg="Hello, world! localhost"
 
 # This playbook step uses the win_ping module to test connectivity to Windows host group called win
-- hosts: win
+- hosts: all
 
   tasks:
   - name: "Wait for connection to VM"
